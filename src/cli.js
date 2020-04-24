@@ -6,6 +6,7 @@ async function run (argv) {
     .src(__dirname)
     .plugins('./node_modules', { matching: 'wdh-*', hidden: true })
     .help()
+    .defaultCommand()
     .version()
     .create()
   const toolbox = await cli.run(argv)

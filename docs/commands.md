@@ -10,3 +10,12 @@ or with the alias:
 $ wdh htr 878787
 Your rgb color: rgb(135, 135, 135) or rgba(135, 135, 135, 1)
 ```
+
+### Generate random string
+```shell
+$ wdh random --string
+```
+or with the alias:
+```shell
+$wdh rdm --string
+```
