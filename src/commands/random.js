@@ -12,7 +12,8 @@ module.exports = {
     const { options } = parameters;
 
     if (options.string) {
-      const hash = crypto.randomBytes(32).toString('ascii');
+      let hash = crypto.randomBytes(32).toString(options.encoding || 'ascii');
+      hash = hash.split('\n').join('').split('\r').join('');
       info(hash);
     }
   }
