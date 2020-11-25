@@ -34,7 +34,7 @@ $ wdh random --string
 ```
 or with the alias:
 ```shell
-$wdh rdm --string
+$ wdh rdm --string
 ```
 
 # License
